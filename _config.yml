@@ -1,0 +1,22 @@
+# Jekyll configuration for Carabid (GitHub Pages + custom domain)
+title: Carabid
+description: "We build AI agents that reason, decide, and act. Autonomous systems for the next era."
+baseurl: ""
+url: "https://carabid.ai"
+
+# GitHub Pages uses Jekyll 3.9.x; keep compatible
+markdown: kramdown
+highlighter: rouge
+
+# Build
+permalink: pretty
+future: false
+
+# Exclude from processing (vendor prevents Jekyll from reading gem site_template)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - vendor
+  - node_modules
