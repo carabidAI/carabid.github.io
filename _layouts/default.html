@@ -10,25 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
 </head>
-<body>
+<body class="page-stealth">
   <div class="noise" aria-hidden="true"></div>
   <div class="grid-bg" aria-hidden="true"></div>
 
-  <header class="header">
+  <header class="header header-stealth">
     <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
-    <nav class="nav">
-      <a href="#philosophy">Philosophy</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
   <main>
     {{ content }}
   </main>
 
-  <footer class="footer">
+  <footer class="footer footer-stealth">
     <span class="footer-logo">{{ site.title }}</span>
-    <p class="footer-tagline">Agentic AI</p>
+    <p class="footer-tagline">Stealth</p>
   </footer>
 
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>

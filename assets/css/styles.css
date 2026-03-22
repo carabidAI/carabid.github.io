@@ -382,12 +382,64 @@ main { position: relative; z-index: 1; }
   transform: translateY(0);
 }
 
+/* --- Stealth page (minimal landing) --- */
+.page-stealth {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-stealth main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-stealth {
+  justify-content: center;
+}
+
+.footer-stealth {
+  margin-top: auto;
+  border-top: none;
+  padding-top: 0;
+}
+
+.stealth-hero {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  max-width: 36rem;
+  padding-bottom: 4rem;
+}
+
+.stealth-hero .hero-label {
+  margin-bottom: 0.75rem;
+}
+
+.stealth-hero .hero-sub {
+  max-width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stealth-hero .hero-visual {
+  position: relative;
+  right: auto;
+  top: auto;
+  transform: none;
+  width: 280px;
+  height: 200px;
+  margin: 2.5rem auto 0;
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .header { padding: var(--space) 1.25rem; }
   .nav { gap: 1.25rem; }
   .hero { padding: 6rem 1.25rem 4rem; }
   .hero-visual { display: none; }
+  .stealth-hero .hero-visual { display: block; }
   .section { padding: 4rem 1.25rem; }
   .cta { padding: 5rem 1.25rem; }
 }

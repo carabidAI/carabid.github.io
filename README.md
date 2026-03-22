@@ -1,9 +1,9 @@
-# Carabid — Agentic AI
+# Carabid
 
-Marketing site for [Carabid](https://carabid.github.io): Agentic AI — agents that think, systems that act.
+Minimal [carabid.ai](https://carabid.ai) landing page (stealth).
 
-- **Stack:** Jekyll (static site generator), HTML/CSS/JS
-- **Hosting:** GitHub Pages (built automatically from this repo)
+- **Stack:** Jekyll, HTML/CSS/JS
+- **Hosting:** GitHub Pages
 
 ## Local development
 
